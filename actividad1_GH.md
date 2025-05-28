@@ -1,4 +1,4 @@
-Taller Práctico: DDL y DML en MySQL - Identificación y Corrección de Errores
+#Taller Práctico: DDL y DML en MySQL - Identificación y Corrección de Errores
 Objetivo del Taller
 Este taller tiene como objetivo reforzar los conocimientos sobre los lenguajes DDL (Data Definition Language) y DML (Data Manipulation Language) en MySQL. Se presentarán ejercicios que contienen errores comunes de sintaxis o de compatibilidad de versión. Los estudiantes deberán identificar la causa de estos errores y corregir el código, utilizando su propio análisis o mediante la formulación de prompts adecuados para herramientas de Inteligencia Artificial (como ChatGPT, Gemini, Copilot, etc.).
 Herramientas Necesarias
