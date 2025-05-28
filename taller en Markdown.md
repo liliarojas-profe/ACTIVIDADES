@@ -1,10 +1,4 @@
-¡Perfecto\! Me encanta la idea de un taller práctico con errores intencionados para fomentar el análisis y el uso de IA. Aquí tienes un borrador de un taller de DDL y DML en MySQL, formateado en Markdown, con errores comunes y situaciones de versión, diseñado para que tus alumnos los identifiquen y corrijan.
-
-Lo he estructurado para que puedas copiarlo y pegarlo directamente en un archivo .md o cualquier editor de texto que soporte Markdown.
-
-# ---
-
-**Taller Práctico: DDL y DML en MySQL \- Identificación y Corrección de Errores**
+# **Taller Práctico: DDL y DML en MySQL \- Identificación y Corrección de Errores**
 
 ## **Objetivo del Taller**
 
@@ -30,11 +24,11 @@ Se desea crear una base de datos universidad y dos tablas: estudiantes y cursos.
 **Código Propuesto (con Errores):**
 
 SQL
-
+`
 \-- Ejercicio 1.1: Crear la base de datos  
 USE universidad;  
 CREATE DATABASE IF EXISTS universidad;
-
+`
 \-- Ejercicio 1.2: Crear la tabla 'estudiantes'  
 USE universidad;  
 CREATE TABLE estudiantes (  
