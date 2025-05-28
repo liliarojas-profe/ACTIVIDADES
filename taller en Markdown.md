@@ -13,7 +13,7 @@ Este taller tiene como objetivo reforzar los conocimientos sobre los lenguajes D
 
 ## ---
 
-**Parte 1: Errores en DDL (Data Definition Language)**
+## **Parte 1: Errores en DDL (Data Definition Language)**
 
 El DDL se utiliza para definir o modificar la estructura de la base de datos (tablas, índices, etc.).
 
@@ -22,13 +22,12 @@ El DDL se utiliza para definir o modificar la estructura de la base de datos (ta
 Se desea crear una base de datos universidad y dos tablas: estudiantes y cursos.
 
 **Código Propuesto (con Errores):**
-
+```
 SQL
-`
 \-- Ejercicio 1.1: Crear la base de datos  
 USE universidad;  
 CREATE DATABASE IF EXISTS universidad;
-`
+
 \-- Ejercicio 1.2: Crear la tabla 'estudiantes'  
 USE universidad;  
 CREATE TABLE estudiantes (  
@@ -61,6 +60,8 @@ ADD CONSTRAINT fk\_curso\_actual
 FOREIGN KEY (curso\_actual\_id) REFERENCES cursos(id\_curso)  
 ON DELETE SET NULL ON UPDATE CASCADE;
 
+```
+
 **Tarea para el Alumno:**
 
 1. Ejecuta el código anterior en MySQL Workbench o tu CLI.  
@@ -79,6 +80,7 @@ Se desea modificar la tabla estudiantes y eliminar una columna.
 
 **Código Propuesto (con Errores y Detalles de Versión):**
 
+```
 SQL
 
 USE universidad;
@@ -103,6 +105,7 @@ MODIFY COLUMN email VARCHAR(100) UNIQUE AFTER apellido; \-- Esto es correcto en 
 ALTER TABLE estudiantes  
 DROP COLUMN fecha\_nacimiento;
 
+```
 **Tarea para el Alumno:**
 
 1. Ejecuta el código anterior.  
@@ -115,7 +118,7 @@ DROP COLUMN fecha\_nacimiento;
 
 ## ---
 
-**Parte 2: Errores en DML (Data Manipulation Language)**
+## **Parte 2: Errores en DML (Data Manipulation Language)**
 
 El DML se utiliza para manipular los datos dentro de las tablas (insertar, actualizar, eliminar, seleccionar).
 
